@@ -40,7 +40,7 @@
     </div>
    
     
-    <header class="site-navbar py-2 bg-info js-sticky-header site-navbar-target" role="banner">
+    <header class="site-navbar py-2 bg-info js-sticky-header sticky-header-white  site-navbar-target" role="banner">
       <div class="container-fluid">
       <div class="container">
         <div class="row align-items-center">
@@ -699,19 +699,17 @@
   <script src="js/aos.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
-<script>
-  window.addEventListener('scroll', function() {
-    const header = document.querySelector('.site-navbar');
-    if (window.scrollY > 50) {
-      header.classList.add('sticky-header-white');
-    } else {
-      header.classList.remove('sticky-header-white');
-    }
-  });
-</script>
-
-  
   <script src="js/main.js"></script>
-    
+    <script>
+window.addEventListener('scroll', function() {
+  const header = document.querySelector('.js-sticky-header');
+  if (window.scrollY > 100) {
+    header.classList.add('sticky-header-white');
+  } else {
+    header.classList.remove('sticky-header-white');
+  }
+});
+
+</script>
   </body>
 </html>
