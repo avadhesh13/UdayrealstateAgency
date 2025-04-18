@@ -42,6 +42,14 @@ h1, h2, h3, h4, h5,
   display: none;
   text-decoration: none;
 }
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
 /* Sticky Background color Chnaged Closed Here  */
 .border-2 {
   border-width: 2px; }
