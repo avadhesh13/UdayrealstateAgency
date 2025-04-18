@@ -29,6 +29,18 @@ h1, h2, h3, h4, h5,
   transition: background-color 0.3s ease;
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  font-size: 20px;
+  z-index: 999;
+  display: none;
+  text-decoration: none;
+}
 /* Sticky Background color Chnaged Closed Here  */
 .border-2 {
   border-width: 2px; }
