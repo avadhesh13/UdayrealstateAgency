@@ -23,7 +23,13 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   font-family: "Playfair Display", serif; }
+/* Stick Background */
+.sticky-header-white {
+  background-color: white !important;
+  transition: background-color 0.3s ease;
+}
 
+/* Sticky Background color Chnaged Closed Here  */
 .border-2 {
   border-width: 2px; }
 
