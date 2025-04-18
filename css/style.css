@@ -536,17 +536,17 @@ h1, h2, h3, h4, h5,
     -o-transition: .3s all ease;
     transition: .3s all ease; }
   .sticky-wrapper .site-navbar {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
     .sticky-wrapper .site-navbar .site-logo a {
       color: #fff; }
     .sticky-wrapper .site-navbar ul li a {
-      color: rgba(255, 255, 255, 0.7); }
+      color: rgba(255, 255, 255, 0.9); }
       .sticky-wrapper .site-navbar ul li a:hover {
         color: #fff; }
       .sticky-wrapper .site-navbar ul li a.active {
         color: #fff; }
   .sticky-wrapper.is-sticky .site-navbar {
-    background: #fff;
+    background: #fff !important;
     border-bottom: 1px solid transparent;
     -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
     box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2); }
