@@ -134,6 +134,12 @@ h1, h2, h3, h4, h5,
      
       line-height: inherit !important;
   }
+ @media (max-width:480px){
+    #myModal .modal-content {
+      top: 10%;
+      width: 90% !important;
+  }
+  }
   /* Closed here */
 .border-2 {
   border-width: 2px; }
