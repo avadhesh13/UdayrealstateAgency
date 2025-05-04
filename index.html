@@ -685,6 +685,38 @@
         </div>
       </div>
     </footer>
+ <!-- The Modal -->
+ <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+        <h4>QUICK  ENQUIRY</h4>
+      <span class="close">X</span>
+    
+    </div>
+    <div class="modal-body">
+        <h5>Please fill up the below details, our executive will call you shortly</h5>
+        <form action="http://www.micro-industries.com/thankyou.php" method="POST" class="form-contact" >
+       <p> Your Name (required)</br>
+      <input type="text" placeholder="" class='form-control' name='fname' required /></p>
+       <p> Your Email (required)</br>
+      <input type="email" placeholder="" class='form-control' name="email" required /></p>
+      <p> Your Number (required)</br>
+      <input type="rel" placeholder="" class='form-control' name="phone_number" required /></p>
+       <p> Message </br>
+      <textarea placeholder="" class='form-control' name="message"></textarea></p>
+      
+      <input type="submit" value="Send">
+    </form>
+       
+ 
+
+    </div>
+	 
+
+  </div>
+  </div>
 
   </div> <!-- .site-wrap -->
 
@@ -729,9 +761,16 @@ window.addEventListener('scroll', function() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 </script>
+<script>
+	setTimeout(function(){
+    $('#myModal').show();
+}, 3000);
 
-   <a href="#" class="back-to-top" onclick="scrollToTop()">↑</a>
-          
+	</script>
+
+      <a href="#" class="back-to-top rounded-circle text-white bg-primary text-center">
+  ↑
+</a>  
           <a href="https://wa.me/917021498448" class="whatsapp-float" target="_blank">
   <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp">
 </a>
