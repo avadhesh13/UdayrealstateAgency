@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5,
 /* Modules open and closed here  */
 #myModal {
   z-index:99999999;
-  /* display:none; */
+   display:none;
   margin-top: 64px;
   }
   #myModal .modal-header h4 {
