@@ -35,21 +35,13 @@ h1, h2, h3, h4, h5,
   right: 20px;
   width: 40px;
   height: 40px;
-  background-color: #007bff;
-  color: #fff;
+  color:#fff;
   line-height: 38px;
   font-size: 20px;
-  text-align: center;
-  border-radius: 50%;
   z-index: 999;
+  display: none;
   text-decoration: none;
-  transition: background-color 0.3s ease;
 }
-
-.back-to-top:hover {
-  background-color: #0056b3;
-}
-
 
 .whatsapp-float {
   position: fixed;
@@ -59,6 +51,90 @@ h1, h2, h3, h4, h5,
 }
 
 /* Sticky Background color Chnaged Closed Here  */
+/* Modules open and closed here  */
+#myModal {
+  z-index:99999999;
+  /* display:none; */
+  margin-top: 64px;
+  }
+  #myModal .modal-header h4 {
+     margin: 0;
+     font-family: inherit;
+  }
+  #myModal .modal-body {
+      padding: 10px 30px 20px;
+  }
+  #myModal h5 {
+      font-size: 19px;
+      color: #c81912;
+      padding-bottom: 10px;
+    
+  }
+  #myModal p {
+     font-size: 13px;
+      color: #000;
+      padding-bottom: 0;
+      margin-bottom: 8px;
+  }
+  #myModal input[type="submit"] {
+      background: #000;
+      color: #fff;
+      cursor: pointer;
+      border: none;
+      font-size: 18px;
+      border: 1px solid#000;
+      padding: 5px;
+      border-radius: 5px;
+    margin-top:0px;
+    width:100%;
+  }
+  .modal-header .close {
+      cursor: pointer;
+  }
+  #myModal .form-control{
+          height: auto;
+      background-color: transparent;
+      border: 1px solid #ced4da;
+      border-radius: .25rem;
+      box-shadow: none;
+      opacity: 1;
+  }
+  .modal-content {
+      position: relative;
+      background-color: #fff;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box;
+      border: 1px solid #999;
+      border: 1px solid rgba(0,0,0,.2);
+      border-radius: 6px;
+      outline: 0;
+      -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+      box-shadow: 0 3px 9px rgba(0,0,0,.5);
+      width: 30%;
+      margin: auto;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      -webkit-animation-name: animatetop;
+      -webkit-animation-duration: 0.6s;
+      animation-name: animatetop;
+      animation-duration: 0.6s;
+      top: 15%;
+  }
+  #myModal .modal-content {
+  top:2%;
+  width: 94% !important;
+    }
+  @media (min-width: 768px){
+  #myModal .modal-content {
+      width: 400px !important;
+  top:8%;
+      margin: auto;
+    }
+  }
+    .fa, .fab, .fad, .fal, .far, .fas {
+     
+      line-height: inherit !important;
+  }
+  /* Closed here */
 .border-2 {
   border-width: 2px; }
 
