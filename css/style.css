@@ -23,6 +23,36 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   font-family: "Playfair Display", serif; }
+
+/* Images Gallery */
+.lb-prev, .lb-next {
+  background: none !important;
+  width: 60px;
+  height: 60px;
+  top: 45%;
+}
+
+.lb-prev {
+  background-image: url('custom-left-arrow.png') !important;
+  left: 10px;
+}
+
+.lb-next {
+  background-image: url('custom-right-arrow.png') !important;
+  right: 10px;
+}
+
+.lb-prev, .lb-next {
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  opacity: 1 !important;
+}
+
+.lb-prev:hover, .lb-next:hover {
+  opacity: 0.8 !important;
+}
+/* closed Here with Images Gallery */
+
 /* Stick Background */
 .sticky-header-white {
   background-color: white !important;
@@ -50,97 +80,92 @@ h1, h2, h3, h4, h5,
   z-index: 999;
 }
 
-/* Sticky Background color Chnaged Closed Here  */
-/* Modules open and closed here  */
-#myModal {
-  z-index:99999999;
-   display:none;
-  margin-top: 64px;
+  
+
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
   }
-  #myModal .modal-header h4 {
-     margin: 0;
-     font-family: inherit;
+
+  .close:hover {
+    color: red;
   }
-  #myModal .modal-body {
-      padding: 10px 30px 20px;
-  }
-  #myModal h5 {
-      font-size: 19px;
-      color: #c81912;
-      padding-bottom: 10px;
-    
-  }
-  #myModal p {
-     font-size: 13px;
-      color: #000;
-      padding-bottom: 0;
-      margin-bottom: 8px;
-  }
-  #myModal input[type="submit"] {
-      background: #000;
-      color: #fff;
-      cursor: pointer;
-      border: none;
-      font-size: 18px;
-      border: 1px solid#000;
-      padding: 5px;
-      border-radius: 5px;
-    margin-top:0px;
-    width:100%;
-  }
-  .modal-header .close {
-      cursor: pointer;
-  }
-  #myModal .form-control{
-          height: auto;
-      background-color: transparent;
-      border: 1px solid #ced4da;
-      border-radius: .25rem;
-      box-shadow: none;
-      opacity: 1;
-  }
-  .modal-content {
-      position: relative;
-      background-color: #fff;
-      -webkit-background-clip: padding-box;
-      background-clip: padding-box;
-      border: 1px solid #999;
-      border: 1px solid rgba(0,0,0,.2);
-      border-radius: 6px;
-      outline: 0;
-      -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
-      box-shadow: 0 3px 9px rgba(0,0,0,.5);
-      width: 30%;
-      margin: auto;
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-      -webkit-animation-name: animatetop;
-      -webkit-animation-duration: 0.6s;
-      animation-name: animatetop;
-      animation-duration: 0.6s;
-      top: 15%;
-  }
-  #myModal .modal-content {
-  top:2%;
-  width: 94% !important;
-    }
-  @media (min-width: 768px){
-  #myModal .modal-content {
-      width: 400px !important;
-  top:8%;
-      margin: auto;
-    }
-  }
-    .fa, .fab, .fad, .fal, .far, .fas {
-     
-      line-height: inherit !important;
-  }
- @media (max-width:480px){
-    #myModal .modal-content {
-      top: 10%;
-      width: 90% !important;
-  }
-  }
-  /* Closed here */
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+/* Images Gallery Closed */
 .border-2 {
   border-width: 2px; }
 
@@ -1343,9 +1368,9 @@ h1, h2, h3, h4, h5,
 
 .social-media {
   display: inline-block;
-  float: left;
-  margin-bottom: 0px;
-  padding: 0; }
+  89090O fl Ooat: left89;
+  margin  -ottom: 0px;
+  padding..: 0; }
   .social-media li {
     display: inline-block; }
 
