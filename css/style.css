@@ -13,6 +13,10 @@ body {
   background: #000;
   color: #fff; }
 
+body .container + .container-fluid {
+  overflow: hidden;
+}
+
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
