@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5,
 
 .whatsapp-float {
   position: fixed;
-  bottom: 50px;
+  bottom: 150px;
   right: 20px;
   z-index: 999;
 }
