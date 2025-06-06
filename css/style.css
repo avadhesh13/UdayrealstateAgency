@@ -110,9 +110,7 @@ h1 {
   word-break: break-all;
 }
 
-.row {
-  margin: 10px -16px;
-}
+
 
 /* Add padding BETWEEN each column */
 .row,
